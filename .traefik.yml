@@ -1,0 +1,14 @@
+displayName: Super rate
+type: middleware
+
+import: github.com/bukukasio/super-rate
+
+summary: 'Rate limit using throttle'
+
+testData:
+  default:
+    rate_per_min: 10
+    burst: 5
+  headers:
+    - X-Real-IP
+    - X-Token

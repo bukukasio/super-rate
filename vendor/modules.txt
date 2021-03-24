@@ -1,0 +1,7 @@
+# github.com/hashicorp/golang-lru v0.5.4
+github.com/hashicorp/golang-lru
+github.com/hashicorp/golang-lru/simplelru
+# github.com/throttled/throttled/v2 v2.7.1
+## explicit
+github.com/throttled/throttled/v2
+github.com/throttled/throttled/v2/store/memstore
