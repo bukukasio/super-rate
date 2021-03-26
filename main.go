@@ -50,6 +50,7 @@ func New(ctx context.Context, next http.Handler, config *Config, name string) (h
 func (r *RateLimiter) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 
 	store, err := memstore.New(65536)
+	fmt.Println("Start")
 	if err != nil {
 		fmt.Println("error creating store")
 		fmt.Println(err)
