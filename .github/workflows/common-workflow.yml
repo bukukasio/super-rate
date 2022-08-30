@@ -3,4 +3,5 @@ on: [pull_request,push]
 jobs:
   test:
     name: TruffleHog
-    uses: bukukasio/.github/.github/workflows/common-workflows.yml@feature-common-workflow-security-trufflehog
+    uses: bukukasio/.github/.github/workflows/common-workflows.yml@master
+    
